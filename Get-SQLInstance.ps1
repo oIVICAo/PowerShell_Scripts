@@ -1,4 +1,4 @@
-﻿Function Get-PSSQLInstance {
+﻿Function Get-SQLInstance {
     <#
         .SYNOPSIS
             Retrieves SQL server information from a local or remote servers.
@@ -11,7 +11,7 @@
             Local or remote systems to query for SQL information.
 
         .NOTES
-            Name: Get-PSSQLInstance
+            Name: Get-SQLInstance
             Author: Boe Prox
             Version History:
                 1.5 //Boe Prox - 31 May 2016
@@ -21,7 +21,7 @@
                     - Initial Version
 
         .EXAMPLE
-            Get-PSSQLInstance -Computername SQL1
+            Get-SQLInstance -Computername SQL1
 
             Computername      : SQL1
             Instance          : MSSQLSERVER
